@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Reader" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.AppCompat.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:typeface">monospace</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">#fcfcfc</item>
+        <item name="cardBackground">#ffffffff</item>
+        <item name="textcolor">#8a000000</item>
+        <item name="buttoncolor">#FFFFFF</item>
+        <item name="toolbarcolor">#03a9f4</item>
+        <item name="edittextcolor">#9e9e9e</item>
+
+    </style>
+    <!-- A separate style pattern is created for the NightMode theme.
+     It is important that the colors used in the default theme correspond. -->
+
+    <style name="NightMode" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDarkMode</item>
+        <item name="colorPrimaryDark">@color/grey</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">#303030</item>
+        <item name="cardBackground">#424242</item>
+        <item name="textcolor">#ffffffff</item>
+        <item name="buttoncolor">#ffffffff</item>
+    </style>
+
+
+    <style name="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:typeface">monospace</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+
+</resources>

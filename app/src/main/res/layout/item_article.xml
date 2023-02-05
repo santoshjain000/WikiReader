@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="1dp"
+    app:cardCornerRadius="3sp"
+    android:layout_margin="3dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="?attr/cardBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintRight_toRightOf="parent">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:src="@drawable/ic_launcher_background"
+        android:id="@+id/thumb"
+        android:padding="10sp"
+        android:layout_height="60dp"></ImageView>
+    <RelativeLayout
+        android:padding="6dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text_repo_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="?attr/textcolor"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_repo_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_repo_name"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="Android widget for cropping and rotating an image."
+            android:textColor="?attr/textcolor"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_repo_description"
+            android:layout_alignParentLeft="true"
+            android:text="Language: Java"
+            android:visibility="gone"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_stars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_below="@+id/text_repo_description"
+            android:layout_alignParentRight="true"
+            android:text="Stars: 1953"
+            android:textColor="?attr/colorAccent"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

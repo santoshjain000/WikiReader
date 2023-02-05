@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WikiReader</string>
+    <string name="title_activity_artical">Article</string>
+    <string name="title_home">WikiArticles</string>
+    <string name="title_dashboard">WikiGallery</string>
+    <string name="title_notifications">WikiCategory</string>
+</resources>

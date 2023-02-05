@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText,MissingConstraints"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/shimmer_placeholder"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription,MissingConstraints" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_margin="5sp"
+                android:background="@color/shimmer_placeholder"
+                app:layout_constraintStart_toEndOf="@+id/item_profile_img" />
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="15dp"
+                android:layout_margin="5sp"
+                android:background="@color/shimmer_placeholder"
+                app:layout_constraintStart_toEndOf="@+id/item_profile_img"
+                app:layout_constraintTop_toBottomOf="@+id/item_student_college" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/shimmer_placeholder"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription,MissingConstraints" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_margin="5sp"
+                android:background="@color/shimmer_placeholder"
+                app:layout_constraintStart_toEndOf="@+id/item_profile_img" />
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="15dp"
+                android:layout_margin="5sp"
+                android:background="@color/shimmer_placeholder"
+                app:layout_constraintStart_toEndOf="@+id/item_profile_img"
+                app:layout_constraintTop_toBottomOf="@+id/item_student_college" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
